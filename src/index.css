@@ -1,0 +1,45 @@
+/* ===== PDF SAFE ROOT ===== */
+@import "tailwindcss";
+.pdf-root {
+  background: #ffffff !important;
+  color: #000000 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-align: center;
+}
+
+.pdf-root * {
+  all: revert;
+  box-sizing: border-box;
+}
+/* Smooth transition (optional) */
+html {
+  transition: background-color 0.3s, color 0.3s;
+}
+@font-face {
+  font-family: "NotoSansBengali";
+  src: url("/src/assets/fonts/NotoSansBengali-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansBengali";
+  src: url("/src/assets/fonts/NotoSansBengali-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "NotoSansBengali";
+  src: url("/src/assets/fonts/NotoSansBengali-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Bangla class */
+.bn {
+  font-family: "NotoSansBengali", Arial, sans-serif;
+}
+
+/* PDF force */
+.pdf-root.bn {
+  font-family: "NotoSansBengali" !important;
+}
