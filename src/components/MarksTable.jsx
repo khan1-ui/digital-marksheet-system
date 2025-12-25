@@ -44,7 +44,7 @@ export default function MarksTable({ subjects }) {
       <table style={{ width: "100%", borderCollapse: "collapse" }}>
         <thead>
           <tr>
-            {[
+            {[ 
               
               t("code"),
               t("subject"),

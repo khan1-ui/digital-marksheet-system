@@ -11,7 +11,7 @@ export default function Help() {
       </p>
       <div>
         <HelpVideo
-        videoUrl="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+        videoUrl="https://www.youtube.com/embed/u9yTigOoQfI?si=XkFwttfWSz-NHglJ" 
         title="Transcript Software Usage Guide"
       />
 

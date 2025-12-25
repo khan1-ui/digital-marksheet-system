@@ -424,23 +424,23 @@ const handleSubjectText = (index, field, value) => {
           >
         <tbody style={{padding:"4px"}} >
           <tr>
-            <td><b>Name</b></td>
+            <td><b>{t("Name")}</b></td>
             <td>: {student.studentName}</td>
-            <td><b>Class</b></td>
+            <td><b>{t("Class")}</b></td>
             <td>: {exam.class}</td>
-            <td><b>Student ID/Roll</b></td>
+            <td><b>{t("Student ID/Roll")}</b></td>
             <td>: {student.studentID}</td>
           </tr>
           <tr>
-            <td><b>Father</b></td>
+            <td><b>{t("Father")}</b></td>
             <td>: {student.fatherName}</td>
-            <td><b>Session</b></td>
+            <td><b>{t("Session")}</b></td>
             <td>: {exam.session}</td>
           </tr>
           <tr>
-            <td><b>Mother</b></td>
+            <td><b>{t("Mother")}</b></td>
             <td>: {student.motherName}</td>
-            <td><b>Group</b></td>
+            <td><b>{t("Group")}</b></td>
             <td>: {exam.group}</td>
           </tr>
         </tbody>
